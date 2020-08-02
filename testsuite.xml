@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Automation suite for Email project" parallel="tests"
+	thread-count="10">
+	<test name="Choose Your Offer and Join the Team in Taking on Cigarette Litter-firefox" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="apitest.Firsttest">
+				<methods>
+					<include name ="apitest1 " />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
