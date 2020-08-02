@@ -6,7 +6,7 @@
 		<classes>
 			<class name="apitest.Firsttest">
 				<methods>
-					<include name ="apitest1 " />
+					<include name ="apitest12 " />
 				</methods>
 			</class>
 		</classes>
